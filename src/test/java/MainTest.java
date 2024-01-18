@@ -23,15 +23,15 @@ public class MainTest {
 
         // First Name
         WebElement firstNameInput = driver.findElement(By.id("firstName"));
-        firstNameInput.sendKeys("John");
+        firstNameInput.sendKeys("Lera");
 
         // Last Name
         WebElement lastNameInput = driver.findElement(By.id("lastName"));
-        lastNameInput.sendKeys("Doe");
+        lastNameInput.sendKeys("Urev");
 
         // Email
         WebElement emailInput = driver.findElement(By.id("userEmail"));
-        emailInput.sendKeys("john.doe@example.com");
+        emailInput.sendKeys("valer.aca@emailol.com");
 
         // Gender
         WebElement genderRadio = driver.findElement(By.xpath("//*[@id=\"genterWrapper\"]/div[2]/div[2]/label"));
@@ -39,7 +39,7 @@ public class MainTest {
 
         // Mobile
         WebElement mobileInput = driver.findElement(By.id("userNumber"));
-        mobileInput.sendKeys("1234567890");
+        mobileInput.sendKeys("8800003232");
 
         // Date of birth
         WebElement dobInput = driver.findElement(By.id("dateOfBirthInput"));
